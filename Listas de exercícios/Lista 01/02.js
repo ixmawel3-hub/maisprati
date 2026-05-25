@@ -1,3 +1,4 @@
+console.clear()
 let idade = Math.round(Math.random() * 100) // Ou um número. 
 console.log(`A pessoa tem ${idade} anos de idade.`)
 if(idade <0) {
