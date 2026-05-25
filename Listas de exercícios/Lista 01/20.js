@@ -4,9 +4,9 @@ function contarElementos(array) {
 
   for (const elemento of array) {
     if (resultado[elemento]) {
-      resultado[elemento]++;
+      resultado[elemento]++
     } else {
-      resultado[elemento] = 1;
+      resultado[elemento] = 1
     }
   }
 
