@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.cabecalho{
+    padding: 20px;
+    background-color: #222;
+    color: #efecec;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: #efecec;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.produtos {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: rgb(250, 240, 227);
+    border: 1px solid #a9a9a9;
+    width: 250px;
+    padding: 20px;
+}
+
+.produto h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.produto p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.produto a{
+    background-color: #222;
+    color: #efecec;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.produto a:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+.rodape{
+    background-color: #222;   
+    color: #efecec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.rodape p{
+    font-size: 15px;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 18px;
+}
+
+.redes-sociais img{
+    width: 30px;
+}
